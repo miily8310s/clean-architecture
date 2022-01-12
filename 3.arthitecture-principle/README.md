@@ -24,10 +24,10 @@
 
 FIXME: リンク
 
-| 章名                                    | リンク                                                                                       |
-| --------------------------------------- | -------------------------------------------------------------------------------------------- |
-| 第７章 SRP:単一責任の原則               | [メモ](https://github.com/miily8310s/clean-architecture/blob/master/1.Introduction/Chap1.md) |
-| 第８章 OCP:オープン・クローズドの原則   | [メモ](https://github.com/miily8310s/clean-architecture/blob/master/1.Introduction/Chap2.md) |
-| 第９章 LSP:リスコフの置換原則           | [メモ](https://github.com/miily8310s/clean-architecture/blob/master/1.Introduction/Chap2.md) |
-| 第１０章 ISP:インターフェース分離の原則 | [メモ](https://github.com/miily8310s/clean-architecture/blob/master/1.Introduction/Chap2.md) |
-| 第１１章 DIP:依存関係逆転の原則         | [メモ](https://github.com/miily8310s/clean-architecture/blob/master/1.Introduction/Chap2.md) |
+| 章名                                    | リンク                                                                                                  |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| 第７章 SRP:単一責任の原則               | [メモ](https://github.com/miily8310s/clean-architecture/blob/master/3.arthitecture-principle/Chap7.md)  |
+| 第８章 OCP:オープン・クローズドの原則   | [メモ](https://github.com/miily8310s/clean-architecture/blob/master/3.arthitecture-principle/Chap8.md)  |
+| 第９章 LSP:リスコフの置換原則           | [メモ](https://github.com/miily8310s/clean-architecture/blob/master/3.arthitecture-principle/Chap9.md)  |
+| 第１０章 ISP:インターフェース分離の原則 | [メモ](https://github.com/miily8310s/clean-architecture/blob/master/3.arthitecture-principle/Chap10.md) |
+| 第１１章 DIP:依存関係逆転の原則         | [メモ](https://github.com/miily8310s/clean-architecture/blob/master/3.arthitecture-principle/Chap11.md) |
