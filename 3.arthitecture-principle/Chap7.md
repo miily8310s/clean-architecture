@@ -27,3 +27,39 @@
 
 - 関数を別のクラスに移動する、いろんな解決策がある
 - 一番わかりやすいのは、データを関数から切り離す方法
+
+## 補足
+
+<!-- @see https://postd.cc/solid-principles-every-developer-should-know/ -->
+
+**単一責任の原則(SRP)**：
+
+- クラスは 1 つのことだけ責任を負うべき
+- もし原則に違反して複数の責任を負っているなら、1 つの責任への変更が、他の責任への変更をもたらしてしまう
+- ※クラスだけでなく、ソフトウェアコンポーネントにも当てはまる法則
+
+### 例
+
+次の `Animal` クラスは、SRP に違反している。
+コンストラクタと `getAnimalName` は `Animal` プロパティを管理し、`saveAnimal` はデータベース上の `Animal` ストレージを管理している。
+
+```ts
+class Animal {
+  constructor(name: string) {}
+  getAnimalName() {}
+  saveAnimal(a: Animal) {}
+}
+```
+
+SRP に一致させるため、データベースに `Animal` を格納する単一の責任を負う別のクラスを生成。
+
+```ts
+class Animal {
+  constructor(name: string) {}
+  getAnimalName() {}
+}
+class AnimalDB {
+  getAnimal(a: Animal) {}
+  saveAnimal(a: Animal) {}
+}
+```
