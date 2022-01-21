@@ -3,7 +3,6 @@
 - 本章で取り上げる３つの原則は、コンポーネントの関連を扱うもの
 - コンポーネント構造のアーキテクチャに影響を及ぼすフォースには、技術的なもの、政治的なもの、変動しやすいもの
 
-<!-- TODO: 以下の記事で紹介されている例を追加する -->
 <!-- @see https://atmarkit.itmedia.co.jp/fdotnet/designptn/designptn07/designptn07_02.html -->
 
 ## 非循環依存関係の原則（ADP）
