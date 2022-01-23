@@ -6,3 +6,11 @@
 - 本章では、以下を取り上げる
   - ソフトウェアコンポーネント/その構成要素はいかなるものか
   - どのように組み合わせてシステムを作り上げるのか
+
+## 目次
+
+| 章名                            | リンク                                                                                               |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| 第１２章 コンポーネント         | [メモ](https://github.com/miily8310s/clean-architecture/blob/master/4.component-principle/Chap12.md) |
+| 第１３章 コンポーネントの凝集性 | [メモ](https://github.com/miily8310s/clean-architecture/blob/master/4.component-principle/Chap13.md) |
+| 第１４章 コンポーネントの結合   | [メモ](https://github.com/miily8310s/clean-architecture/blob/master/4.component-principle/Chap14.md) |
